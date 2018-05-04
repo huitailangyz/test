@@ -135,7 +135,7 @@ int main()
 {
 	FILE *fp;
 	fp = fopen("./forwarding-table.txt", "r"); 
-	printf("Begin to build trie.\n");
+	//////////////////////////////////////////////////////////////////////
 	char ip_str[20];
 	u8 mask_bit, port;
 	printf("New file.\n");
