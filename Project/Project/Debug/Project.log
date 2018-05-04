@@ -1,0 +1,11 @@
+﻿  VisualGDB: Sending 1 updated source file to build machine...
+  VisualGDB: Run "gcc poptrie.c -o poptrie" in directory "/home/yz/networking/mininet/custom/09-lookup" on yz@192.168.192.153 (SSH)
+  poptrie.c: In function ‘main’:
+E:\学习\大三下\计算机网络研讨课\09-高效IP路由查找实验\Project\Project\poptrie.c(143,19): warning : format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘u8 * {aka unsigned char *}’ [-Wformat=]
+    while (fscanf(fp,"%s %d %d", ip_str, &mask_bit, &port) != EOF){
+                     ^
+E:\学习\大三下\计算机网络研讨课\09-高效IP路由查找实验\Project\Project\poptrie.c(143,19): warning : format ‘%d’ expects argument of type ‘int *’, but argument 5 has type ‘u8 * {aka unsigned char *}’ [-Wformat=]
+E:\学习\大三下\计算机网络研讨课\09-高效IP路由查找实验\Project\Project\poptrie.c(170,20): warning : format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘u8 * {aka unsigned char *}’ [-Wformat=]
+    while (fscanf(fp, "%s %d %d", ip_str, &mask_bit, &port) != EOF) {
+                      ^
+E:\学习\大三下\计算机网络研讨课\09-高效IP路由查找实验\Project\Project\poptrie.c(170,20): warning : format ‘%d’ expects argument of type ‘int *’, but argument 5 has type ‘u8 * {aka unsigned char *}’ [-Wformat=]
